@@ -1,25 +1,25 @@
 package com.bridgelabz;
 
 public class AccountDetails {
-    private float accountBalance;
+    private float savingsBalance;
     private float annualInterestRate;
 
     public float getAccountBalance() {
-        return accountBalance;
+        return savingsBalance;
     }
 
     public void setAccountBalance(float accountBalance) {
-        this.accountBalance = accountBalance;
+        this.savingsBalance = accountBalance;
     }
 
     public AccountDetails(float accountBalance, float annualInterestRate) {
-        this.accountBalance = accountBalance;
+        this.savingsBalance = accountBalance;
         this.annualInterestRate = annualInterestRate;
     }
 
     public float calculateAccountBalance() {
         float monthlyInterest=((annualInterestRate/12)/100);
-            accountBalance += (accountBalance * monthlyInterest);
-        return accountBalance;
+        savingsBalance += (savingsBalance * monthlyInterest);
+        return savingsBalance;
     }
 }
