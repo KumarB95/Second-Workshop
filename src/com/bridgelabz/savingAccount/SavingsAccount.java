@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.bridgelabz.savingAccount;
 import java.util.ArrayList;
 /*
 * Program : Calculating monthly balance

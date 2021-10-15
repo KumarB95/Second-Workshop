@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.bridgelabz.savingAccount;
 
 public class AccountDetails {
     private float savingsBalance;
